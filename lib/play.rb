@@ -39,7 +39,8 @@ end
 
 def play(board)
 total_turns = 0
-while total <= 9
+while total < 9
+  total_turns +=
   turn(board)
 end
 end
